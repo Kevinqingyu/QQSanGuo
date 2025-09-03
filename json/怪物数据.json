@@ -5084,7 +5084,7 @@
 		"受击音效": "res://SNDEFFECT/7013.wav",
 		"死亡音效": "res://SNDEFFECT/8013.wav",
 		"图标": "res://enemy/sprites/head/monster_3135-00.png",
-		"赏金": 1170,
+		"赏金": 11700,
 		"经验": 4000,
 		"技能熟练度": 60
 	},
@@ -5472,7 +5472,7 @@
 		"受击音效": "res://SNDEFFECT/7338.wav",
 		"死亡音效": "res://SNDEFFECT/8338.wav",
 		"图标": "res://enemy/sprites/head/monster_3338-00.png",
-		"赏金": 1840,
+		"赏金": 18400,
 		"经验": 4000,
 		"技能熟练度": 80
 	},
@@ -5690,7 +5690,7 @@
 		"受击音效": "res://SNDEFFECT/7325.wav",
 		"死亡音效": "res://SNDEFFECT/7997.wav",
 		"图标": "res://enemy/sprites/head/monster_3325-00.png",
-		"赏金": 2820,
+		"赏金": 28200,
 		"经验": 4000,
 		"技能熟练度": 80
 	},
@@ -6354,7 +6354,7 @@
 		"受击音效": "res://SNDEFFECT/7032.wav",
 		"死亡音效": "res://SNDEFFECT/8032.wav",
 		"图标": "res://enemy/sprites/head/monster_3304-00.png",
-		"赏金": 2620,
+		"赏金": 26200,
 		"经验": 1240,
 		"技能熟练度": 70
 	},
@@ -6396,7 +6396,7 @@
 		"受击音效": "res://SNDEFFECT/7032.wav",
 		"死亡音效": "res://SNDEFFECT/8032.wav",
 		"图标": "res://enemy/sprites/head/monster_3217-00.png",
-		"赏金": 2000,
+		"赏金": 20000,
 		"经验": 6000,
 		"技能熟练度": 70
 	},
@@ -6661,7 +6661,7 @@
 		"受击音效": "res://SNDEFFECT/7016.wav",
 		"死亡音效": "res://SNDEFFECT/8016.wav",
 		"图标": "res://enemy/sprites/head/monster_3131-00.png",
-		"赏金": 50,
+		"赏金": 25000,
 		"经验": 4340,
 		"技能熟练度": 80
 	},
@@ -7139,7 +7139,7 @@
 		"受击音效": "res://SNDEFFECT/7034.wav",
 		"死亡音效": "res://SNDEFFECT/8034.wav",
 		"图标": "res://enemy/sprites/head/monster_3135-00.png",
-		"赏金": 50,
+		"赏金": 26000,
 		"经验": 4740,
 		"技能熟练度": 80
 	},
@@ -7488,7 +7488,7 @@
 		"受击音效": "res://SNDEFFECT/7305.wav",
 		"死亡音效": "res://SNDEFFECT/8305.wav",
 		"图标": "res://enemy/sprites/head/monster_3319-00.png",
-		"赏金": 2030,
+		"赏金": 20300,
 		"经验": 5040,
 		"技能熟练度": 80
 	},
@@ -7755,7 +7755,7 @@
 		"受击音效": "res://SNDEFFECT/7305.wav",
 		"死亡音效": "res://SNDEFFECT/8305.wav",
 		"图标": "res://enemy/sprites/head/monster_3355-00.png",
-		"赏金": 50,
+		"赏金": 30000,
 		"经验": 5400,
 		"技能熟练度": 80
 	},
@@ -8101,7 +8101,7 @@
 		"受击音效": "res://SNDEFFECT/7017.wav",
 		"死亡音效": "res://SNDEFFECT/8017.wav",
 		"图标": "res://enemy/sprites/head/monster_3354-00.png",
-		"赏金": 50,
+		"赏金": 31000,
 		"经验": 6520,
 		"技能熟练度": 80
 	},
@@ -8167,7 +8167,7 @@
 		"受击音效": "res://SNDEFFECT/7017.wav",
 		"死亡音效": "res://SNDEFFECT/8017.wav",
 		"图标": "res://enemy/sprites/head/monster_3323-00.png",
-		"赏金": 50,
+		"赏金": 32000,
 		"经验": 3620,
 		"技能熟练度": 80
 	},
@@ -9629,7 +9629,7 @@
 		"受击音效": "res://SNDEFFECT/7031.wav",
 		"死亡音效": "res://SNDEFFECT/8031.wav",
 		"图标": "res://enemy/sprites/head/monster_3349-00.png",
-		"赏金": 50,
+		"赏金": 40000,
 		"经验": 10440,
 		"技能熟练度": 80
 	},
@@ -10965,7 +10965,7 @@
 		"受击音效": "res://SNDEFFECT/7017.wav",
 		"死亡音效": "res://SNDEFFECT/7340.wav",
 		"图标": "res://enemy/sprites/head/monster_3373-00.png",
-		"赏金": 50,
+		"赏金": 50000,
 		"经验": 13000,
 		"技能熟练度": 80
 	},
@@ -11028,7 +11028,7 @@
 		"受击音效": "res://SNDEFFECT/7017.wav",
 		"死亡音效": "res://SNDEFFECT/8338.wav",
 		"图标": "res://enemy/sprites/head/monster_3824-00.png",
-		"赏金": 50,
+		"赏金": 50000,
 		"经验": 13920,
 		"技能熟练度": 80
 	},
