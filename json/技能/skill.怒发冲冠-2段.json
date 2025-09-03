@@ -1,0 +1,246 @@
+{
+    "SkillInfo": {
+        "Index": 125,
+        "技能名称": "怒发冲冠-2段",
+        "描述": "100级豪杰技能",
+        "IconIndex": 1,
+        "职业": 2,
+        "伤害": 5000,
+        "蓝耗": 280,
+        "Sk3Id": 7861,
+        "Ef3Id": 8305,
+        "友方为目标群体技能": 0,
+        "技能矩形范围距离目标中心横向距离": 0,
+        "技能矩形范围距离目标中心纵向距离": 0,
+        "技能矩形宽度": 0,
+        "技能矩形长度": 0,
+        "攻击距离": 150,
+        "群攻范围左边界": 0,
+        "群攻范围下边界": 0,
+        "群攻范围右边界": 0,
+        "群攻范围上边界": 0,
+        "冷却时间(ms)": 3600,
+        "目标僵直时间(ms)": 1600,
+        "后摇时间(ms)": 1800,
+        "聚气时间(ms)": 0,
+        "攻击段数": 4,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "7861.sk3",
+        "Ef3FileName": "8305.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0001.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 0,
+        "ActionTime": 0,
+        "CoolDownTime": 0,
+        "ActionNum": 3,
+        "ActionList": [
+            {
+                "Index": 20,
+                "Time": 100,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 35,
+                "Time": 1600,
+                "Delay": 100,
+                "Rate": 0.5
+            },
+            {
+                "Index": 20,
+                "Time": 100,
+                "Delay": 1700,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 7794,
+            "GsoFileName": "Magic7794.gso",
+            "Name": "Track1",
+            "PlayMode": 2,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 1,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": -58,
+            "CenterY": -45,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 1600,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2885,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": [
+                {
+                    "Time": 1700,
+                    "value": 100,
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "Id": 7789,
+            "GsoFileName": "Magic7789.gso",
+            "Name": "Track2",
+            "PlayMode": 0,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 63,
+            "CenterY": -140,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.25,
+                    "YScale": 1.25,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2575,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.25,
+                    "YScale": 1.25,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 1480,
+                    "Id": 1415,
+                    "FilePath": ".\\SNDEFFECT\\1415.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": []
+        },
+        {
+            "Id": 7788,
+            "GsoFileName": "Magic7788.gso",
+            "Name": "Track0",
+            "PlayMode": 0,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 1,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 40,
+            "CenterY": -185,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.25,
+                    "YScale": 1.25,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2560,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.25,
+                    "YScale": 1.25,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        }
+    ]
+}

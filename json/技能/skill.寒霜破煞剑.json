@@ -1,0 +1,189 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 2,
+		"暴击": 15,
+		"攻击需要目标": 1,
+		"aoe": 0,
+		"Index": 30,
+		"技能名称": "寒霜破煞剑",
+		"描述": "霜重鼓寒声不起，剑气冲云煞尽破\n剑侍140级招式，攻击距离150。同时对多个目标造成伤害并在目标处制造寒霜领域，领域剑侍受到的伤害降低，同时敌人速度降低\\n对领域内的敌人施放/C27剑雪倾城/C18时获得额外暴击伤害加成",
+		"IconIndex": 5601,
+		"职业": 1,
+		"伤害": 2100,
+		"蓝耗": 310,
+		"Sk3Id": 31,
+		"Ef3Id": 5689,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 150,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": -100,
+		"群攻范围右边界": 75,
+		"群攻范围上边界": 100,
+		"冷却时间(ms)": 6000,
+		"目标僵直时间(ms)": 1300,
+		"后摇时间(ms)": 1700,
+		"聚气时间(ms)": 0,
+		"攻击段数": 3,
+		"等级": 140,
+		"释放时显示字幕": "",
+		"Sk3FileName": "0031.sk3",
+		"Ef3FileName": "5689.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5601.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 0,
+		"ActionTime": 100,
+		"CoolDownTime": 0,
+		"ActionNum": 2,
+		"ActionList": [
+			{
+				"Index": 25,
+				"Time": 700,
+				"Delay": 0,
+				"Rate": 1.8
+			},
+			{
+				"Index": 26,
+				"Time": 800,
+				"Delay": 700,
+				"Rate": 1.1
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 5689,
+			"GsoFileName": "Magic5689.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -200,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 70.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 3095,
+					"X": 70.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 15,
+					"Id": 1301,
+					"FilePath": ".\\SNDEFFECT\\1301.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 1510,
+					"value": 100,
+					"type": 0,
+					"ef3": "0103.ef3"
+				}
+			]
+		},
+		{
+			"Id": 285,
+			"GsoFileName": "Magic0285.gso",
+			"Name": "Track1",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1000,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [],
+			"TrackAttack": []
+		}
+	]
+}

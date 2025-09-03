@@ -1,0 +1,261 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 8,
+		"暴击": 0,
+		"攻击需要目标": 1,
+		"aoe": 0,
+		"特效目标": "怪物",
+		"Index": 224,
+		"技能名称": "红莲流火",
+		"描述": "英魂溅血染红莲，银河流火耀人间\\n阴阳士110级招式，对多个目标造成伤害，同时召唤出一只带有束缚能力的焰兽帮助自己攻击目标。",
+		"IconIndex": 33,
+		"职业": 3,
+		"伤害": 1500,
+		"蓝耗": 300,
+		"Sk3Id": 422,
+		"Ef3Id": 401,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 330,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 50000,
+		"目标僵直时间(ms)": 1600,
+		"后摇时间(ms)": 1000,
+		"聚气时间(ms)": 1000,
+		"攻击段数": 1,
+		"等级": 110,
+		"释放时显示字幕": "",
+		"Sk3FileName": "0422.sk3",
+		"Ef3FileName": "0422.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0033.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 4,
+		"ActionTime": 660,
+		"CoolDownTime": 100,
+		"ActionNum": 1,
+		"ActionList": [
+			{
+				"Index": 58,
+				"Time": 700,
+				"Delay": 0,
+				"Rate": 1.0
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 109,
+			"GsoFileName": "Magic0109.gso",
+			"Name": "star",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 60,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 15.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 0.5,
+					"YScale": 0.3,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.8,
+					"Hold": 0
+				},
+				{
+					"Time": 600,
+					"X": 15.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 0.5,
+					"YScale": 0.3,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.8,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 0,
+					"Id": 9997,
+					"FilePath": ".\\SNDEFFECT\\9997.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		},
+		{
+			"Id": 286,
+			"GsoFileName": "Magic0286.gso",
+			"Name": "light",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 60,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 15.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 0.75,
+					"YScale": 0.75,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.8,
+					"Hold": 0
+				},
+				{
+					"Time": 600,
+					"X": 15.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 0.75,
+					"YScale": 0.55,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.8,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [],
+			"TrackAttack": []
+		},
+		{
+			"Id": 92,
+			"GsoFileName": "Magic0092.gso",
+			"Name": "Track0",
+			"PlayMode": 4,
+			"PlayReserve": 0,
+			"Speed": 50,
+			"MoveSpeed": 100,
+			"Sort": 1,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -50,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 220,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 510,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.8,
+					"Hold": 0
+				},
+				{
+					"Time": 715,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 225,
+					"Id": 1401,
+					"FilePath": ".\\SNDEFFECT\\1401.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 395,
+					"value": 100,
+					"type": 0
+				}
+			]
+		}
+	]
+}

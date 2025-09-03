@@ -1,0 +1,150 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 12,
+		"暴击": 10,
+		"攻击需要目标": 0,
+		"aoe": 1,
+		"Index": 25,
+		"技能名称": "极刃戮风",
+		"描述": "刃锋如雪绽寒光，风行千里戮天狼\n剑侍110级招式，对周围的所有目标造成一次伤害并造成刃痕持续受到伤害，同时进入隐身状态，在隐身时的下一次攻击伤害会大幅提升，攻击后隐身会提前解除。",
+		"IconIndex": 31,
+		"职业": 1,
+		"伤害": 1700,
+		"蓝耗": 170,
+		"Sk3Id": 69,
+		"Ef3Id": 6625,
+		"友方为目标群体技能": 1,
+		"技能矩形范围距离目标中心横向距离": -130,
+		"技能矩形范围距离目标中心纵向距离": -50,
+		"技能矩形宽度": 260,
+		"技能矩形长度": 100,
+		"攻击距离": 260,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 40000,
+		"目标僵直时间(ms)": 1200,
+		"后摇时间(ms)": 1600,
+		"聚气时间(ms)": 0,
+		"攻击段数": 2,
+		"等级": 110,
+		"释放时显示字幕": "",
+		"Sk3FileName": "0069.sk3",
+		"Ef3FileName": "6625.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0031.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 0,
+		"ActionTime": 170,
+		"CoolDownTime": 0,
+		"ActionNum": 4,
+		"ActionList": [
+			{
+				"Index": 25,
+				"Time": 800,
+				"Delay": 0,
+				"Rate": 1.2
+			},
+			{
+				"Index": 59,
+				"Time": 760,
+				"Delay": 800,
+				"Rate": 1.0
+			},
+			{
+				"Index": 63,
+				"Time": 60,
+				"Delay": 1560,
+				"Rate": 1.0
+			},
+			{
+				"Index": 64,
+				"Time": 60,
+				"Delay": 1620,
+				"Rate": 1.0
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 6625,
+			"GsoFileName": "Magic6625.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": -55.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 2300,
+					"X": 0.0,
+					"Y": -55.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 25,
+					"Id": 4007,
+					"FilePath": ".\\SNDEFFECT\\4007.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 220,
+					"value": 40,
+					"type": 0,
+					"ef3": "0103.ef3"
+				},
+				{
+					"Time": 540,
+					"value": 60,
+					"type": 0,
+					"ef3": "0103.ef3"
+				}
+			]
+		}
+	]
+}

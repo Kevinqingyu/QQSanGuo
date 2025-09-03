@@ -1,0 +1,190 @@
+{
+    "SkillInfo": {
+        "Index": 130,
+        "技能名称": "荒冥斩雷-2段",
+        "描述": "群攻",
+        "IconIndex": 1,
+        "职业": 2,
+        "伤害": 4000,
+        "蓝耗": 300,
+        "Sk3Id": 131,
+        "Ef3Id": 6634,
+        "友方为目标群体技能": 1,
+        "技能矩形范围距离目标中心横向距离": -130,
+        "技能矩形范围距离目标中心纵向距离": -50,
+        "技能矩形宽度": 260,
+        "技能矩形长度": 100,
+        "攻击距离": 260,
+        "群攻范围左边界": 0,
+        "群攻范围下边界": 0,
+        "群攻范围右边界": 0,
+        "群攻范围上边界": 0,
+        "冷却时间(ms)": 0,
+        "目标僵直时间(ms)": 1600,
+        "后摇时间(ms)": 860,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "0131.sk3",
+        "Ef3FileName": "6634.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0001.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 1,
+        "ActionTime": 0,
+        "CoolDownTime": 0,
+        "ActionNum": 3,
+        "ActionList": [
+            {
+                "Index": 35,
+                "Time": 740,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 36,
+                "Time": 60,
+                "Delay": 740,
+                "Rate": 1.0
+            },
+            {
+                "Index": 37,
+                "Time": 60,
+                "Delay": 800,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 6635,
+            "GsoFileName": "Magic6635.gso",
+            "Name": "Track0",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 150,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 1,
+            "TrackKeyFrame": [
+                {
+                    "Time": 430,
+                    "X": 30.0,
+                    "Y": -110.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1630,
+                    "X": 30.0,
+                    "Y": -110.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 875,
+                    "Id": 4009,
+                    "FilePath": ".\\SNDEFFECT\\4009.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": []
+        },
+        {
+            "Id": 6634,
+            "GsoFileName": "Magic6634.gso",
+            "Name": "Track1",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 150,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 1,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 430,
+                    "X": 30.0,
+                    "Y": -170.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1630,
+                    "X": 30.0,
+                    "Y": -170.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": [
+                {
+                    "Time": 815,
+                    "value": 100,
+                    "type": 0,
+                    "ef3": "0105.ef3"
+                }
+            ]
+        }
+    ]
+}

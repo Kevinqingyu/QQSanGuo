@@ -1,0 +1,191 @@
+{
+    "SkillInfo": {
+        "Index": 226,
+        "技能名称": "红莲流火-2段",
+        "描述": "群体伤害",
+        "IconIndex": 415,
+        "职业": 3,
+        "伤害": 1500,
+        "蓝耗": 300,
+        "Sk3Id": 422,
+        "Ef3Id": 6619,
+        "友方为目标群体技能": 0,
+        "技能矩形范围距离目标中心横向距离": 0,
+        "技能矩形范围距离目标中心纵向距离": 0,
+        "技能矩形宽度": 0,
+        "技能矩形长度": 0,
+        "攻击距离": 330,
+        "群攻范围左边界": -50,
+        "群攻范围下边界": -100,
+        "群攻范围右边界": 150,
+        "群攻范围上边界": 150,
+        "冷却时间(ms)": 0,
+        "目标僵直时间(ms)": 1600,
+        "后摇时间(ms)": 900,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "0422.sk3",
+        "Ef3FileName": "6619.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0415.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 4,
+        "ActionTime": 660,
+        "CoolDownTime": 100,
+        "ActionNum": 1,
+        "ActionList": [
+            {
+                "Index": 58,
+                "Time": 700,
+                "Delay": 0,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 6619,
+            "GsoFileName": "Magic6619.gso",
+            "Name": "Track0",
+            "PlayMode": 4,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": -150.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 4500,
+                    "X": 0.0,
+                    "Y": -150.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 45,
+                    "Id": 4013,
+                    "FilePath": ".\\SNDEFFECT\\4013.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 2035,
+                    "value": 100,
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "Id": 6618,
+            "GsoFileName": "Magic6618.gso",
+            "Name": "Track1",
+            "PlayMode": 4,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 1,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 2010,
+                    "X": 0.0,
+                    "Y": -160.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 3715,
+                    "X": 0.0,
+                    "Y": -160.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 4510,
+                    "X": 0.0,
+                    "Y": -160.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 0.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        }
+    ]
+}

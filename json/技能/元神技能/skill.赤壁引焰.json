@@ -1,0 +1,258 @@
+{
+    "SkillInfo": {
+        "Index": 9766,
+        "技能名称": "赤壁引焰",
+        "描述": "烈火初张照云海，赤壁楼船扫地空。对前方的目标造成伤害并引爆其摄魂伤害，同时目标陷入燃烧状态，招式使用间隔时间18秒",
+        "IconIndex": 5502,
+        "职业": 0,
+        "伤害": 2000,
+        "蓝耗": 0,
+        "Sk3Id": 5872,
+        "Ef3Id": 7551,
+        "友方为目标群体技能": 1,
+        "技能矩形范围距离目标中心横向距离": -10,
+        "技能矩形范围距离目标中心纵向距离": -60,
+        "技能矩形宽度": 280,
+        "技能矩形长度": 60,
+        "攻击距离": 280,
+        "群攻范围左边界": -10,
+        "群攻范围下边界": -60,
+        "群攻范围右边界": 280,
+        "群攻范围上边界": 60,
+        "冷却时间(ms)": 18000,
+        "目标僵直时间(ms)": 0,
+        "后摇时间(ms)": 1000,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": ".\\magic\\Image\\7562.gso",
+        "Sk3FileName": "5872.sk3",
+        "Ef3FileName": "7551.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5502.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 0,
+        "ActionTime": 0,
+        "CoolDownTime": 0,
+        "ActionNum": 5,
+        "ActionList": [
+            {
+                "Index": 56,
+                "Time": 100,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 57,
+                "Time": 100,
+                "Delay": 100,
+                "Rate": 1.0
+            },
+            {
+                "Index": 58,
+                "Time": 1700,
+                "Delay": 200,
+                "Rate": 1.0
+            },
+            {
+                "Index": 63,
+                "Time": 100,
+                "Delay": 1900,
+                "Rate": 1.0
+            },
+            {
+                "Index": 64,
+                "Time": 100,
+                "Delay": 2000,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 7551,
+            "GsoFileName": "Magic7551.gso",
+            "Name": "Track0",
+            "PlayMode": 0,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 5,
+            "CenterY": -10,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": -130.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 900,
+                    "X": 0.0,
+                    "Y": -130.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        },
+        {
+            "Id": 7552,
+            "GsoFileName": "Magic7552.gso",
+            "Name": "Track1",
+            "PlayMode": 0,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 140,
+            "CenterY": -55,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 205,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2105,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 206,
+                    "Id": 1662,
+                    "FilePath": ".\\SNDEFFECT\\1662.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 705,
+                    "value": 100,
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "Id": 6492,
+            "GsoFileName": "Magic6492.gso",
+            "Name": "Track2",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 1,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": -45.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 700,
+                    "X": 0.0,
+                    "Y": -45.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        }
+    ]
+}

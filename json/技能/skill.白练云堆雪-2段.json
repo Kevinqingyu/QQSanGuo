@@ -1,0 +1,127 @@
+{
+    "SkillInfo": {
+        "Index": 331,
+        "技能名称": "白练云堆雪-2段",
+        "描述": "碧海涛生风波灭，晴天潮来浪翻云\\n仙术100级招式，攻击距离280，招式使用时间间隔35秒，可同时对多个目标造成伤害，令目标进入追魂、战栗、虚弱、行动能力降低的状态",
+        "IconIndex": 5152,
+        "职业": 4,
+        "伤害": 2000,
+        "蓝耗": 350,
+        "Sk3Id": 7848,
+        "Ef3Id": 4741,
+        "友方为目标群体技能": 0,
+        "技能矩形范围距离目标中心横向距离": 0,
+        "技能矩形范围距离目标中心纵向距离": 0,
+        "技能矩形宽度": 0,
+        "技能矩形长度": 0,
+        "攻击距离": 280,
+        "群攻范围左边界": -80,
+        "群攻范围下边界": -100,
+        "群攻范围右边界": 150,
+        "群攻范围上边界": 150,
+        "冷却时间(ms)": 0,
+        "目标僵直时间(ms)": 0,
+        "后摇时间(ms)": 750,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "7848.sk3",
+        "Ef3FileName": "4741.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5152.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 4,
+        "ActionTime": 1800,
+        "CoolDownTime": 0,
+        "ActionNum": 2,
+        "ActionList": [
+            {
+                "Index": 57,
+                "Time": 60,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 58,
+                "Time": 340,
+                "Delay": 60,
+                "Rate": 2.1
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 4741,
+            "GsoFileName": "Magic4741.gso",
+            "Name": "Track0",
+            "PlayMode": 2,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": -100,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.2,
+                    "YScale": 1.2,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1495,
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.2,
+                    "YScale": 1.2,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 30,
+                    "Id": 3025,
+                    "FilePath": ".\\SNDEFFECT\\3025.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 455,
+                    "value": 100,
+                    "type": 0,
+                    "ef3": "0101.ef3"
+                }
+            ]
+        }
+    ]
+}

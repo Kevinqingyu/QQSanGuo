@@ -1,0 +1,294 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 15,
+		"暴击": 1,
+		"攻击需要目标": 0,
+		"aoe": 1,
+		"Index": 122,
+		"技能名称": "十荡十决",
+		"描述": "荡净四海颓唐气，英气自生无当前\\n豪杰90级招式，对两侧一定范围内所有目标造成伤害。",
+		"IconIndex": 3124,
+		"职业": 2,
+		"伤害": 3500,
+		"蓝耗": 120,
+		"Sk3Id": 2090,
+		"Ef3Id": 2090,
+		"友方为目标群体技能": 1,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": -120,
+		"技能矩形宽度": 360,
+		"技能矩形长度": 150,
+		"攻击距离": 280,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": -100,
+		"群攻范围右边界": 280,
+		"群攻范围上边界": 100,
+		"冷却时间(ms)": 9000,
+		"目标僵直时间(ms)": 800,
+		"后摇时间(ms)": 2700,
+		"聚气时间(ms)": 150,
+		"攻击段数": 6,
+		"等级": 90,
+		"释放时显示字幕": "",
+		"Sk3FileName": "2090.sk3",
+		"Ef3FileName": "2090.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\3124.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 1,
+		"ActionTime": 700,
+		"CoolDownTime": 0,
+		"ActionNum": 3,
+		"ActionList": [
+			{
+				"Index": 35,
+				"Time": 800,
+				"Delay": 0,
+				"Rate": 1.5
+			},
+			{
+				"Index": 35,
+				"Time": 800,
+				"Delay": 800,
+				"Rate": 1.5
+			},
+			{
+				"Index": 35,
+				"Time": 800,
+				"Delay": 1600,
+				"Rate": 1.5
+			},
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 5103,
+			"GsoFileName": "Magic5103.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 10,
+			"CenterY": -10,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 700,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 0,
+					"Id": 2090,
+					"FilePath": ".\\SNDEFFECT\\2090.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		},
+		{
+			"Id": 5105,
+			"GsoFileName": "Magic5105.gso",
+			"Name": "Track2",
+			"PlayMode": 0,
+			"PlayReserve": 0,
+			"Speed": 50,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -60,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.3,
+					"YScale": 1.3,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 995,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.3,
+					"YScale": 1.3,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [],
+			"TrackAttack": [
+				{
+					"Time": 340,
+					"value": 50,
+					"type": 0
+				},
+				{
+					"Time": 645,
+					"value": 50,
+					"type": 0
+				}
+			]
+		},
+		{
+			"Id": 5104,
+			"GsoFileName": "Magic5104.gso",
+			"Name": "Track1",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 53,
+			"MoveSpeed": 100,
+			"Sort": 4,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -70,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.5,
+					"YScale": 1.5,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1000,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.5,
+					"YScale": 1.5,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 0,
+					"Id": 2091,
+					"FilePath": ".\\SNDEFFECT\\2091.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 340,
+					"value": 16,
+					"type": 0
+				},
+				{
+					"Time": 645,
+					"value": 16,
+					"type": 0
+				},
+				{
+					"Time": 1140,
+					"value": 16,
+					"type": 0
+				},
+				{
+					"Time": 1445,
+					"value": 16,
+					"type": 0
+				},
+				{
+					"Time": 1940,
+					"value": 16,
+					"type": 0
+				},
+				{
+					"Time": 2245,
+					"value": 20,
+					"type": 0
+				},
+			]
+		}
+	]
+}

@@ -1,0 +1,125 @@
+{
+	"SkillInfo": {
+		"buff": [{
+			"buff_name": "weishe",
+			"buff_target": 1,
+			"buff_time": 3,
+		}],
+		"类型": 3,
+		"攻击系数": 2,
+		"暴击": 0,
+		"攻击需要目标": 1,
+		"aoe": 0,
+		"特效目标": "怪物",
+		"Index": 841,
+		"技能名称": "威慑天下",
+		"描述": "心法使用后，指定的敌人处于恐惧状态，主动逃离战斗区域，持续3秒。",
+		"IconIndex": 908,
+		"职业": 3,
+		"伤害": 0,
+		"蓝耗": 0,
+		"Sk3Id": 9022,
+		"Ef3Id": 9207,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 300,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 12000,
+		"目标僵直时间(ms)": 0,
+		"后摇时间(ms)": 0,
+		"聚气时间(ms)": 0,
+		"攻击段数": 1,
+		"等级": 0,
+		"释放时显示字幕": "",
+		"Sk3FileName": "9022.sk3",
+		"Ef3FileName": "9207.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\0908.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 4,
+		"ActionTime": 660,
+		"CoolDownTime": 100,
+		"ActionNum": 1,
+		"ActionList": [
+			{
+				"Index": 58,
+				"Time": 700,
+				"Delay": 0,
+				"Rate": 1.0
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 590,
+			"GsoFileName": "Magic0590.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -30,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 50.0,
+					"Y": -70.0,
+					"Z": 0.0,
+					"XScale": 2.5,
+					"YScale": 2.5,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1000,
+					"X": 50.0,
+					"Y": -70.0,
+					"Z": 0.0,
+					"XScale": 2.5,
+					"YScale": 2.5,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 5,
+					"Id": 9207,
+					"FilePath": ".\\SNDEFFECT\\9207.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+    "SkillInfo": {
+        "Index": 655,
+        "技能名称": "甑宓技能",
+        "描述": "甑宓技能",
+        "IconIndex": 1607,
+        "职业": 0,
+        "伤害": 0,
+        "蓝耗": 0,
+        "Sk3Id": 4118,
+        "Ef3Id": 4118,
+        "友方为目标群体技能": 0,
+        "技能矩形范围距离目标中心横向距离": 0,
+        "技能矩形范围距离目标中心纵向距离": 0,
+        "技能矩形宽度": 0,
+        "技能矩形长度": 0,
+        "攻击距离": 0,
+        "群攻范围左边界": 0,
+        "群攻范围下边界": 0,
+        "群攻范围右边界": 0,
+        "群攻范围上边界": 0,
+        "冷却时间(ms)": 2200,
+        "目标僵直时间(ms)": 0,
+        "后摇时间(ms)": 1300,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "4118.sk3",
+        "Ef3FileName": "4118.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\1607.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 0,
+        "ActionTime": 0,
+        "CoolDownTime": 0,
+        "ActionNum": 5,
+        "ActionList": [
+            {
+                "Index": 56,
+                "Time": 800,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 57,
+                "Time": 100,
+                "Delay": 800,
+                "Rate": 1.0
+            },
+            {
+                "Index": 58,
+                "Time": 200,
+                "Delay": 900,
+                "Rate": 1.0
+            },
+            {
+                "Index": 63,
+                "Time": 100,
+                "Delay": 1100,
+                "Rate": 1.0
+            },
+            {
+                "Index": 64,
+                "Time": 200,
+                "Delay": 1200,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 301,
+            "GsoFileName": "Magic0301.gso",
+            "Name": "Track1",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 1,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 50,
+            "CenterY": 0,
+            "SubNumber": 3,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 930,
+                    "X": 30.0,
+                    "Y": -40.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 128.0,
+                    "B": 128.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1080,
+                    "X": 100.0,
+                    "Y": -40.0,
+                    "Z": 0.0,
+                    "XScale": 2.0,
+                    "YScale": 1.5,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 128.0,
+                    "B": 128.0,
+                    "A": 0.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1305,
+                    "X": 30.0,
+                    "Y": -40.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 128.0,
+                    "B": 128.0,
+                    "A": 0.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 1760,
+                    "Id": 3001,
+                    "FilePath": ".\\SNDEFFECT\\3001.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 1035,
+                    "value": 100,
+                    "type": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"SkillInfo": {
+	},
+	"PlayerAction": {
+		"ActionNum": 1,
+		"ActionList": [
+			{
+				"Index": 00,
+				"Time": 800,
+				"Delay": 0,
+				"Rate": 1.0
+			}
+		]
+	}
+}

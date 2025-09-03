@@ -1,0 +1,178 @@
+{
+    "SkillInfo": {
+        "Index": 132,
+        "技能名称": "焚天碎神斩",
+        "描述": "漫天斧影透怒意，心神俱裂碎魂绝\\n豪杰130级招式，对前方所有目标造成两次伤害，同时击飞和降低目标的移动速度，若目标为子女则沉默其一定时间",
+        "IconIndex": 5390,
+        "职业": 2,
+        "伤害": 4500,
+        "蓝耗": 230,
+        "Sk3Id": 2090,
+        "Ef3Id": 4736,
+        "友方为目标群体技能": 1,
+        "技能矩形范围距离目标中心横向距离": -10,
+        "技能矩形范围距离目标中心纵向距离": -80,
+        "技能矩形宽度": 280,
+        "技能矩形长度": 200,
+        "攻击距离": 280,
+        "群攻范围左边界": -10,
+        "群攻范围下边界": -80,
+        "群攻范围右边界": 280,
+        "群攻范围上边界": 200,
+        "冷却时间(ms)": 20000,
+        "目标僵直时间(ms)": 800,
+        "后摇时间(ms)": 1600,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 130,
+        "释放时显示字幕": "",
+        "Sk3FileName": "2090.sk3",
+        "Ef3FileName": "4736.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5390.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 1,
+        "ActionTime": 700,
+        "CoolDownTime": 0,
+        "ActionNum": 1,
+        "ActionList": [
+            {
+                "Index": 35,
+                "Time": 800,
+                "Delay": 0,
+                "Rate": 1.5
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 4736,
+            "GsoFileName": "Magic4736.gso",
+            "Name": "Track0",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": -95,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 330,
+                    "X": 130.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1430,
+                    "X": 300.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        },
+        {
+            "Id": 4747,
+            "GsoFileName": "Magic4747.gso",
+            "Name": "Track1",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 60,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": -80.0,
+                    "Z": 0.0,
+                    "XScale": 1.1,
+                    "YScale": 1.1,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 420,
+                    "X": 0.0,
+                    "Y": -80.0,
+                    "Z": 0.0,
+                    "XScale": 1.1,
+                    "YScale": 1.1,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 25,
+                    "Id": 1120,
+                    "FilePath": ".\\SNDEFFECT\\1120.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 355,
+                    "value": 100,
+                    "type": 0,
+                    "ef3": "0101.ef3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "SkillInfo": {
+        "Index": 230,
+        "技能名称": "涅槃燃狱焰-2段",
+        "描述": "涅槃真火三昧起，燃尽四海刑狱空\\n阴阳士130级招式，攻击距离280。击退目标，并削弱其伤害。",
+        "IconIndex": 1003,
+        "职业": 3,
+        "伤害": 1500,
+        "蓝耗": 0,
+        "Sk3Id": 3091,
+        "Ef3Id": 4791,
+        "友方为目标群体技能": 1,
+        "技能矩形范围距离目标中心横向距离": -10,
+        "技能矩形范围距离目标中心纵向距离": -60,
+        "技能矩形宽度": 360,
+        "技能矩形长度": 60,
+        "攻击距离": 280,
+        "群攻范围左边界": 0,
+        "群攻范围下边界": -100,
+        "群攻范围右边界": 280,
+        "群攻范围上边界": 100,
+        "冷却时间(ms)": 0,
+        "目标僵直时间(ms)": 0,
+        "后摇时间(ms)": 10,
+        "聚气时间(ms)": 0,
+        "攻击段数": 1,
+        "等级": 0,
+        "释放时显示字幕": "",
+        "Sk3FileName": "3091.sk3",
+        "Ef3FileName": "4791.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\1003.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 4,
+        "ActionTime": 1800,
+        "CoolDownTime": 0,
+        "ActionNum": 2,
+        "ActionList": [
+            {
+                "Index": 57,
+                "Time": 60,
+                "Delay": 0,
+                "Rate": 1.0
+            },
+            {
+                "Index": 58,
+                "Time": 1600,
+                "Delay": 60,
+                "Rate": 1.0
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 4791,
+            "GsoFileName": "Magic4791.gso",
+            "Name": "Track0",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": -30,
+            "CenterY": -35,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 336.0,
+                    "Y": 23.0,
+                    "Z": 0.0,
+                    "XScale": 1.5,
+                    "YScale": 1.5,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 1595,
+                    "X": 336.0,
+                    "Y": 23.0,
+                    "Z": 0.0,
+                    "XScale": 1.5,
+                    "YScale": 1.5,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": [
+                {
+                    "Time": 355,
+                    "value": 100,
+                    "type": 0,
+                    "ef3": "0101.ef3"
+                }
+            ]
+        },
+        {
+            "Id": 4792,
+            "GsoFileName": "Magic4792.gso",
+            "Name": "Track0",
+            "PlayMode": 0,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": -75,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": -122.0,
+                    "Y": -93.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2300,
+                    "X": -122.0,
+                    "Y": -93.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 35,
+                    "Id": 2030,
+                    "FilePath": ".\\SNDEFFECT\\2030.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": []
+        }
+    ]
+}

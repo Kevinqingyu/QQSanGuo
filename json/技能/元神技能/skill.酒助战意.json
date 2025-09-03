@@ -1,0 +1,113 @@
+{
+	"SkillInfo": {
+		"buff": [{
+			"buff_name": "酒助战意",
+			"buff_cd": 600,
+			"buff_target": 0,
+			"buff_time": 30,
+		}],
+		"技能类型": "主动",
+		"Index": 621,
+		"技能名称": "酒助战意",
+		"描述": "提高物理攻击100%，同时移动速度降低125点，持续时间30秒，招式使用间隔时间600秒，",
+		"IconIndex": 1626,
+		"职业": 0,
+		"伤害": 0,
+		"蓝耗": 0,
+		"Sk3Id": 0,
+		"Ef3Id": 3407,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 230,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 600000,
+		"目标僵直时间(ms)": 0,
+		"后摇时间(ms)": 1000,
+		"聚气时间(ms)": 0,
+		"攻击段数": 1,
+		"等级": 0,
+		"释放时显示字幕": ".\\magic\\Image\\0127.gso",
+		"Sk3FileName": "0000.sk3",
+		"Ef3FileName": "3407.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\1626.gsa"
+	},
+	"PlayerAction": {},
+	"SkillEffect": [
+		{
+			"Id": 388,
+			"GsoFileName": "Magic0388.gso",
+			"Name": "Track1",
+			"PlayMode": 0,
+			"PlayReserve": 0,
+			"Speed": 40,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 395,
+					"X": 30.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 2.0,
+					"YScale": 2.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 0.0,
+					"B": 0.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1275,
+					"X": 30.0,
+					"Y": -50.0,
+					"Z": 0.0,
+					"XScale": 2.0,
+					"YScale": 2.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 128.0,
+					"B": 128.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 995,
+					"Id": 3008,
+					"FilePath": ".\\SNDEFFECT\\3008.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 550,
+					"value": 100,
+					"type": 0
+				}
+			]
+		}
+	]
+}

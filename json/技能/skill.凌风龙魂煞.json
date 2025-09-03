@@ -1,0 +1,133 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 16,
+		"暴击": 10,
+		"攻击需要目标": 1,
+		"aoe": 0,
+		"Index": 27,
+		"技能名称": "凌风龙魂煞-1段",
+		"描述": "一剑凌风激金龙，煞气屠尽九城枯\\n剑侍130级招式，攻击距离200，削弱目标受到的治疗效果；同时目标生命值越高，伤害加成越高且技能冷却时间相应减少，",
+		"IconIndex": 5388,
+		"职业": 1,
+		"伤害": 2000,
+		"蓝耗": 270,
+		"Sk3Id": 1090,
+		"Ef3Id": 4737,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 200,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 30000,
+		"目标僵直时间(ms)": 0,
+		"后摇时间(ms)": 1900,
+		"聚气时间(ms)": 0,
+		"攻击段数": 1,
+		"等级": 130,
+		"释放时显示字幕": "",
+		"Sk3FileName": "1090.sk3",
+		"Ef3FileName": "4737.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5388.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 0,
+		"ActionTime": 900,
+		"CoolDownTime": 0,
+		"ActionNum": 1,
+		"ActionList": [
+			{
+				"Index": 23,
+				"Time": 1000,
+				"Delay": 0,
+				"Rate": 0.5
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 4737,
+			"GsoFileName": "Magic4737.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -200,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": -80.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 2165,
+					"X": -80.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 2500,
+					"X": -80.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.3,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 25,
+					"Id": 1031,
+					"FilePath": ".\\SNDEFFECT\\1031.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		}
+	]
+}

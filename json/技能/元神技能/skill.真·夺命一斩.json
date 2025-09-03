@@ -1,0 +1,135 @@
+{
+	"SkillInfo": {
+		"技能类型": "主动",
+		"Index": 4041,
+		"技能名称": "真·夺命一斩",
+		"描述": "高达8000攻击力的高伤害物理攻击，招式使用间隔时间150秒",
+		"IconIndex": 1610,
+		"职业": 0,
+		"伤害": 8000,
+		"蓝耗": 0,
+		"Sk3Id": 0,
+		"Ef3Id": 8404,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 230,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 150000,
+		"目标僵直时间(ms)": 0,
+		"后摇时间(ms)": 1500,
+		"聚气时间(ms)": 0,
+		"攻击段数": 1,
+		"等级": 0,
+		"释放时显示字幕": "",
+		"Sk3FileName": "0000.sk3",
+		"Ef3FileName": "8404.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\1610.gsa"
+	},
+	"PlayerAction": {},
+	"SkillEffect": [
+		{
+			"Id": 1013,
+			"GsoFileName": "Magic1013.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 695,
+					"X": 170.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1070,
+					"X": 170.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.33,
+					"YScale": 1.3,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1095,
+					"X": 170.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1390,
+					"X": 170.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 0.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 1270,
+					"Id": 7019,
+					"FilePath": ".\\SNDEFFECT\\7019.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 800,
+					"value": 100,
+					"type": 0
+				}
+			]
+		}
+	]
+}

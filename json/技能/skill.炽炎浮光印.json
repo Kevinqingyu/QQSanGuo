@@ -1,0 +1,266 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"攻击系数": 2,
+		"暴击": 0,
+		"攻击需要目标": 1,
+		"aoe": 0,
+		"特效目标": "怪物",
+		"Index": 231,
+		"技能名称": "炽炎浮光印",
+		"描述": "浮云舒卷原无定，畏天炎炎烁太虚\\n阴阳士140级招式，攻击距离280。令目标获得涅槃之炎，目标在涅槃之炎状态下对附近的友方传染狱焰效果，造成少量持续伤害（可多次叠加）\\n施放/C27涅槃燃狱焰/C18时，会对有狱焰状态的玩家造成额外伤害（狱焰层数越多，伤害加成越高）",
+		"IconIndex": 5603,
+		"职业": 3,
+		"伤害": 2500,
+		"蓝耗": 330,
+		"Sk3Id": 421,
+		"Ef3Id": 5697,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 280,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 15000,
+		"目标僵直时间(ms)": 800,
+		"后摇时间(ms)": 500,
+		"聚气时间(ms)": 1500,
+		"攻击段数": 1,
+		"等级": 140,
+		"释放时显示字幕": "",
+		"Sk3FileName": "0421.sk3",
+		"Ef3FileName": "5697.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5603.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 4,
+		"ActionTime": 0,
+		"CoolDownTime": 100,
+		"ActionNum": 2,
+		"ActionList": [
+			{
+				"Index": 56,
+				"Time": 360,
+				"Delay": 0,
+				"Rate": 1.0
+			},
+			{
+				"Index": 59,
+				"Time": 760,
+				"Delay": 360,
+				"Rate": 1.0
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 5697,
+			"GsoFileName": "Magic5697.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 80,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": -40.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 880,
+					"X": 0.0,
+					"Y": -40.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 25,
+					"Id": 1322,
+					"FilePath": ".\\SNDEFFECT\\1322.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		},
+		{
+			"Id": 5698,
+			"GsoFileName": "Magic5698.gso",
+			"Name": "Track1",
+			"PlayMode": 2,
+			"PlayReserve": 0,
+			"Speed": 80,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": -90,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 645,
+					"X": 10.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 15.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 3045,
+					"X": 10.0,
+					"Y": -60.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 15.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [],
+			"TrackAttack": [
+				{
+					"Time": 1140,
+					"value": 33,
+					"type": 0,
+					"ef3": "0103.ef3"
+				},
+				{
+					"Time": 1350,
+					"value": 33,
+					"type": 0,
+					"ef3": "0103.ef3"
+				},
+				{
+					"Time": 1600,
+					"value": 34,
+					"type": 0,
+					"ef3": "0103.ef3"
+				}
+			]
+		},
+		{
+			"Id": 286,
+			"GsoFileName": "Magic0286.gso",
+			"Name": "Track2",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 1,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 1000,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 15,
+					"Id": 1321,
+					"FilePath": ".\\SNDEFFECT\\1321.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		}
+	]
+}

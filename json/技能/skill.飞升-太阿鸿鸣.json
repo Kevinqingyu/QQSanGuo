@@ -1,0 +1,185 @@
+{
+	"SkillInfo": {
+		"类型": 3,
+		"Index": 9300,
+		"技能名称": "飞升-太阿鸿鸣",
+		"描述": "对目标劈出巨剑，对目标至少造成自身最大生命5%的伤害和减速，自身免疫控制效果1秒，同时对剑身处波及的目标造成持续伤害",
+		"IconIndex": 5492,
+		"职业": 1,
+		"伤害": 2000,
+		"蓝耗": 0,
+		"暴击": 18,
+		"Sk3Id": 31,
+		"Ef3Id": 6521,
+		"友方为目标群体技能": 0,
+		"技能矩形范围距离目标中心横向距离": 0,
+		"技能矩形范围距离目标中心纵向距离": 0,
+		"技能矩形宽度": 0,
+		"技能矩形长度": 0,
+		"攻击距离": 350,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 25000,
+		"目标僵直时间(ms)": 1300,
+		"后摇时间(ms)": 800,
+		"聚气时间(ms)": 0,
+		"攻击段数": 10,
+		"等级": 0,
+		"释放时显示字幕": ".\\magic\\Image\\6528.gso",
+		"Sk3FileName": "0031.sk3",
+		"Ef3FileName": "6521.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5492.gsa"
+	},
+	"PlayerAction": {
+		"Version": 3,
+		"WeaponType": 0,
+		"ActionTime": 100,
+		"CoolDownTime": 0,
+		"ActionNum": 2,
+		"ActionList": [
+			{
+				"Index": 25,
+				"Time": 700,
+				"Delay": 0,
+				"Rate": 1.8
+			},
+			{
+				"Index": 26,
+				"Time": 800,
+				"Delay": 700,
+				"Rate": 1.1
+			}
+		]
+	},
+	"SkillEffect": [
+		{
+			"Id": 6521,
+			"GsoFileName": "Magic6521.gso",
+			"Name": "Track0",
+			"PlayMode": 2,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": -80,
+			"CenterY": -220,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 2900,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 1,
+					"Id": 1650,
+					"FilePath": ".\\SNDEFFECT\\1650.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": [
+				{
+					"Time": 895,
+					"value": 100,
+					"type": 0
+				}
+			]
+		},
+		{
+			"Id": 6492,
+			"GsoFileName": "Magic6492.gso",
+			"Name": "Track1",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": 0,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 1,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 0,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 700,
+					"X": 0.0,
+					"Y": -45.0,
+					"Z": 0.0,
+					"XScale": 1.0,
+					"YScale": 1.0,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [],
+			"TrackAttack": []
+		}
+	]
+}

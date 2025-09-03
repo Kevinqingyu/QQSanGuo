@@ -1,0 +1,188 @@
+{
+    "SkillInfo": {
+        "Index": 9315,
+        "技能名称": "飞升-舍身一怒",
+        "描述": "消耗自身最大9%的生命，召唤本命武魂，对目标至少造成自身最大生命10%的伤害，同时自身受到治疗效果短暂降低",
+        "IconIndex": 5493,
+        "职业": 2,
+        "伤害": 3000,
+        "蓝耗": 0,
+        "Sk3Id": 31,
+        "Ef3Id": 6522,
+        "友方为目标群体技能": 0,
+        "技能矩形范围距离目标中心横向距离": 0,
+        "技能矩形范围距离目标中心纵向距离": 0,
+        "技能矩形宽度": 0,
+        "技能矩形长度": 0,
+        "攻击距离": 350,
+        "群攻范围左边界": 0,
+        "群攻范围下边界": 0,
+        "群攻范围右边界": 0,
+        "群攻范围上边界": 0,
+        "冷却时间(ms)": 25000,
+        "目标僵直时间(ms)": 1300,
+        "后摇时间(ms)": 800,
+        "聚气时间(ms)": 0,
+        "攻击段数": 2,
+        "等级": 0,
+        "释放时显示字幕": ".\\magic\\Image\\6529.gso",
+        "Sk3FileName": "0031.sk3",
+        "Ef3FileName": "6522.ef3",
+        "IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5493.gsa"
+    },
+    "PlayerAction": {
+        "Version": 3,
+        "WeaponType": 0,
+        "ActionTime": 100,
+        "CoolDownTime": 0,
+        "ActionNum": 2,
+        "ActionList": [
+            {
+                "Index": 25,
+                "Time": 700,
+                "Delay": 0,
+                "Rate": 1.8
+            },
+            {
+                "Index": 26,
+                "Time": 800,
+                "Delay": 700,
+                "Rate": 1.1
+            }
+        ]
+    },
+    "SkillEffect": [
+        {
+            "Id": 6522,
+            "GsoFileName": "Magic6522.gso",
+            "Name": "Track0",
+            "PlayMode": 2,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": -40,
+            "CenterY": -92,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 0,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 30.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 2700,
+                    "X": 30.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [
+                {
+                    "Time": 1,
+                    "Id": 1651,
+                    "FilePath": ".\\SNDEFFECT\\1651.wav",
+                    "Volume": 1.0
+                }
+            ],
+            "TrackAttack": [
+                {
+                    "Time": 505,
+                    "value": 30,
+                    "type": 0
+                },
+                {
+                    "Time": 965,
+                    "value": 70,
+                    "type": 0
+                }
+            ]
+        },
+        {
+            "Id": 6492,
+            "GsoFileName": "Magic6492.gso",
+            "Name": "Track1",
+            "PlayMode": 1,
+            "PlayReserve": 0,
+            "Speed": 100,
+            "MoveSpeed": 100,
+            "Sort": 0,
+            "BlendMode": 0,
+            "LerpMode": 0,
+            "BlurNum": 0,
+            "BlurInterval": 100,
+            "BlurAlpha": 1.0,
+            "BlurScale": 1.0,
+            "DirNum": 1,
+            "CenterX": 0,
+            "CenterY": 0,
+            "SubNumber": 0,
+            "SubTime": 0,
+            "SubRangeX": 0,
+            "SubRangeY": 0,
+            "TrackType": 1,
+            "RenderLv": 0,
+            "TrackKeyFrame": [
+                {
+                    "Time": 0,
+                    "X": 0.0,
+                    "Y": -45.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                },
+                {
+                    "Time": 700,
+                    "X": 0.0,
+                    "Y": -45.0,
+                    "Z": 0.0,
+                    "XScale": 1.0,
+                    "YScale": 1.0,
+                    "Rotate": 0.0,
+                    "R": 255.0,
+                    "G": 255.0,
+                    "B": 255.0,
+                    "A": 1.0,
+                    "Hold": 0
+                }
+            ],
+            "TrackMusic": [],
+            "TrackAttack": []
+        }
+    ]
+}

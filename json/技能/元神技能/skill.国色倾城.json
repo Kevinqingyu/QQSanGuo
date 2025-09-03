@@ -1,0 +1,101 @@
+{
+	"SkillInfo": {
+		"技能类型": "主动",
+		"Index": 6912,
+		"技能名称": "国色倾城",
+		"描述": "己方受到的治疗效果提升20%，持续时间60秒，招式使用间隔时间300秒",
+		"IconIndex": 5412,
+		"职业": 0,
+		"伤害": 0,
+		"蓝耗": 0,
+		"Sk3Id": 0,
+		"Ef3Id": 5308,
+		"友方为目标群体技能": 1,
+		"技能矩形范围距离目标中心横向距离": -460,
+		"技能矩形范围距离目标中心纵向距离": -260,
+		"技能矩形宽度": 920,
+		"技能矩形长度": 520,
+		"攻击距离": 210,
+		"群攻范围左边界": 0,
+		"群攻范围下边界": 0,
+		"群攻范围右边界": 0,
+		"群攻范围上边界": 0,
+		"冷却时间(ms)": 300000,
+		"目标僵直时间(ms)": 0,
+		"后摇时间(ms)": 1000,
+		"聚气时间(ms)": 0,
+		"攻击段数": 1,
+		"等级": 0,
+		"释放时显示字幕": ".\\magic\\Image\\5202.gso",
+		"Sk3FileName": "0000.sk3",
+		"Ef3FileName": "5308.ef3",
+		"IconFilePath": ".\\res\\UiRes\\Version04\\Icon\\Skill\\5412.gsa"
+	},
+	"PlayerAction": {},
+	"SkillEffect": [
+		{
+			"Id": 5308,
+			"GsoFileName": "Magic5308.gso",
+			"Name": "Track0",
+			"PlayMode": 1,
+			"PlayReserve": 0,
+			"Speed": 100,
+			"MoveSpeed": 100,
+			"Sort": 0,
+			"BlendMode": 0,
+			"LerpMode": 0,
+			"BlurNum": 0,
+			"BlurInterval": 100,
+			"BlurAlpha": 1.0,
+			"BlurScale": 1.0,
+			"DirNum": 1,
+			"CenterX": 0,
+			"CenterY": -80,
+			"SubNumber": 0,
+			"SubTime": 0,
+			"SubRangeX": 0,
+			"SubRangeY": 0,
+			"TrackType": 0,
+			"RenderLv": 0,
+			"TrackKeyFrame": [
+				{
+					"Time": 85,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.1,
+					"YScale": 1.1,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				},
+				{
+					"Time": 2980,
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"XScale": 1.1,
+					"YScale": 1.1,
+					"Rotate": 0.0,
+					"R": 255.0,
+					"G": 255.0,
+					"B": 255.0,
+					"A": 1.0,
+					"Hold": 0
+				}
+			],
+			"TrackMusic": [
+				{
+					"Time": 85,
+					"Id": 5005,
+					"FilePath": ".\\SNDEFFECT\\5005.wav",
+					"Volume": 1.0
+				}
+			],
+			"TrackAttack": []
+		}
+	]
+}
