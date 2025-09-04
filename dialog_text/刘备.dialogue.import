@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dmdp05j2niddf"
+path="res://.godot/imported/刘备.dialogue-126db6fbeef18fa0c6a0156ff03665c0.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/刘备.dialogue"
+dest_files=["res://.godot/imported/刘备.dialogue-126db6fbeef18fa0c6a0156ff03665c0.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

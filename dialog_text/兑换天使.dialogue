@@ -1,0 +1,63 @@
+~ start
+兑换天使: 最近大师们又开始捣腾了，这次的新玩意儿就是传说中那个神秘的符咒!!!可不要小瞧了这小小的东西，把它放在身上会有神奇的力量。用不了多久，你就会升职加薪，当上军团长，出任城主，迎娶貂小蝉，走向人生意峰!光想想就有点小激动了吧还在等什么，快去收集些符咒碎片来进行兑换吧!
+- 兑换翅膀
+	- 兑换一级翅膀
+		if PlayerManager.player_item_inventory.get_quantity("一级羽毛") >= 15:
+			if PlayerManager.player.player_base_info["性别"] == "M":
+				do PlayerManager.player_equip_inventory.exchange("枫之羽(男)")
+			else:
+				do PlayerManager.player_equip_inventory.exchange("蝶之羽(女)")
+			do PlayerManager.player_item_inventory.delete_item("一级羽毛", 15)
+			=> END
+		else:
+			=> not_enought
+	- 兑换二级翅膀
+		if PlayerManager.player_item_inventory.get_quantity("二级羽毛") >= 30:
+			if PlayerManager.player.player_base_info["性别"] == "M":
+				do PlayerManager.player_equip_inventory.exchange("月影枫痕羽(男)")
+			else:
+				do PlayerManager.player_equip_inventory.exchange("晓梦谜蝶羽(女)")
+			do PlayerManager.player_item_inventory.delete_item("二级羽毛", 30)
+			=> END
+		else:
+			=> not_enought
+	- 兑换三级翅膀
+		if PlayerManager.player_item_inventory.get_quantity("三级羽毛") >= 80:
+			if PlayerManager.player.player_base_info["性别"] == "M":
+				do PlayerManager.player_equip_inventory.exchange("幽灵碧焰羽(男)")
+			else:
+				do PlayerManager.player_equip_inventory.exchange("幻灵虹霓羽(女)")
+			do PlayerManager.player_item_inventory.delete_item("三级羽毛", 80)
+			=> END
+		else:
+			=> not_enought
+	- 兑换四级翅膀
+		if PlayerManager.player_item_inventory.get_quantity("四级羽毛") >= 150:
+			if PlayerManager.player.player_base_info["性别"] == "M":
+				do PlayerManager.player_equip_inventory.exchange("血影冥光翼(男)")
+			else:
+				do PlayerManager.player_equip_inventory.exchange("玄影伽蓝翼(女)")
+			do PlayerManager.player_item_inventory.delete_item("四级羽毛", 150)
+			=> END
+		else:
+			=> not_enought
+	- 兑换五级翅膀
+		if PlayerManager.player_item_inventory.get_quantity("五级羽毛") >= 250:
+			if PlayerManager.player.player_base_info["性别"] == "M":
+				do PlayerManager.player_equip_inventory.exchange("战天使之翼(男)")
+			else:
+				do PlayerManager.player_equip_inventory.exchange("炽天使之翼(女)")
+			do PlayerManager.player_item_inventory.delete_item("五级羽毛", 250)
+			=> END
+		else:
+			=> not_enought
+	- 暂不兑换
+		=> END
+- 暂不兑换
+	=> END
+=> END
+
+
+~ not_enought
+兑换天使: 你的羽毛数量不足，收集够了再来吧。
+=> END

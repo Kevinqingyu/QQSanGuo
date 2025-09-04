@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://sjgjcm87licn"
+path="res://.godot/imported/圣诞老人.dialogue-621c56396796d7cddcee2f8630542b95.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/圣诞老人.dialogue"
+dest_files=["res://.godot/imported/圣诞老人.dialogue-621c56396796d7cddcee2f8630542b95.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cc6ml342k13l6"
+path="res://.godot/imported/简雍.dialogue-3c3c63bbcdccd34dfa051c32ed950d18.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/简雍.dialogue"
+dest_files=["res://.godot/imported/简雍.dialogue-3c3c63bbcdccd34dfa051c32ed950d18.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

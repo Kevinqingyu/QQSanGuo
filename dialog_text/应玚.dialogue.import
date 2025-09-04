@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c7m5d2m2f5yrg"
+path="res://.godot/imported/应玚.dialogue-58157a4598d2b97fb2c78de59f74ea34.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/应玚.dialogue"
+dest_files=["res://.godot/imported/应玚.dialogue-58157a4598d2b97fb2c78de59f74ea34.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

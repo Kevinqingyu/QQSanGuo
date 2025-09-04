@@ -1,0 +1,34 @@
+~ start
+# 如果任务已完成，直接默认对话
+if QuestManager.finished_has_quest("新兵试炼"):
+	=> default_dialog
+# 判断是否已经接受任务
+if QuestManager.current_has_quest("新兵试炼"):
+	# 判断任务进度
+	# 任务已接收，但未完成
+	if QuestManager.check_quest_state("新兵试炼") == 0:
+		=> on_progress
+# 任务已完成
+else:
+	=> accept_quest
+=> END
+
+~ accept_quest
+诸葛亮: 如今训练营东门外有一小撮黄巾斥候，胆大包天，视我蜀中无人，具体军情，去找[color=#0eff00]廖化[/color]将军了解吧。[color=#0eff00]廖化[/color]将军负责查验新军，要想得到骠骑营的认可，必须通过[color=#0eff00]廖化[/color]将军的试炼。
+- 我这就去
+	do QuestManager.quest_update("新兵试炼", 0, "训练营廖化", {"type": "talk", "npcs": {"廖化": 1}})
+	诸葛亮: 很好，那你速去
+	=> END
+- 晚点再说吧 => consider_quest
+
+~ on_progress
+诸葛亮: [color=#0eff00]廖化[/color]将军就在右下方，快去找他吧
+=> END
+
+~ consider_quest
+诸葛亮: 没问题，等你准备好了再来找我。
+=> END
+
+~ default_dialog
+诸葛亮: 我夜观星象，似有不祥之兆.
+=> END

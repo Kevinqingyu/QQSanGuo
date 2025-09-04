@@ -1,0 +1,19 @@
+~ start
+黄忠: 如今人年龄大了，身体大不如以前了，老伴时常劝我申请退休。但是现在眼看又要讨伐董卓，军费吃紧，现在申请岂不是退休金都没着落了。
+- 对话/任务
+	黄忠: 如今人年龄大了，身体大不如以前了，老伴时常劝我申请退休。但是现在眼看又要讨伐董卓，军费吃紧，现在申请岂不是退休金都没着落了。
+- 传送
+	黄忠: 八阵图十分危险，你还是去多找几个朋友一起前去比较安全。你确定现在就想进入八阵图?
+	- 让我现在就去吧
+		if PlayerManager.player_item_inventory.get_quantity("地灵精魄") >= 2:
+			do PlayerManager.player_item_inventory.delete_item("地灵精魄", 2)
+			do LevelManager.load_new_map("八阵图景门", Vector2(360.3, 872.4))
+			=> END
+		else:
+			你缺少进入副本的地灵精魄，去本国书丞那里可以兑换。
+			=> END
+	- 让我再准备准备
+		=> END
+- 取消
+	=> END
+=> END

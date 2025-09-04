@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://drmynjwa1qs81"
+path="res://.godot/imported/心法指引军师.dialogue-7882a40af4a726547b0688b73fe26011.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/心法指引军师.dialogue"
+dest_files=["res://.godot/imported/心法指引军师.dialogue-7882a40af4a726547b0688b73fe26011.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

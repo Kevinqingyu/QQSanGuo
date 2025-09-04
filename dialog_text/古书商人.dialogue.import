@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b2pgn05483dh8"
+path="res://.godot/imported/古书商人.dialogue-463f0590df59ae53672b959a4fcf5061.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/古书商人.dialogue"
+dest_files=["res://.godot/imported/古书商人.dialogue-463f0590df59ae53672b959a4fcf5061.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

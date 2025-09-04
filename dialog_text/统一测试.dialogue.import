@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bcyi2l4ipi1r8"
+path="res://.godot/imported/统一测试.dialogue-0ea6031397098e8c339cc2be33830cea.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/统一测试.dialogue"
+dest_files=["res://.godot/imported/统一测试.dialogue-0ea6031397098e8c339cc2be33830cea.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

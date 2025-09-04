@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c043asw254mva"
+path="res://.godot/imported/周仓.dialogue-e45096f93beac2ebef06daf18932d8a2.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/周仓.dialogue"
+dest_files=["res://.godot/imported/周仓.dialogue-e45096f93beac2ebef06daf18932d8a2.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

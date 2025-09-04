@@ -1,0 +1,19 @@
+~ start
+韩当: 都说我如果吴国多几个你这样的猛将，那么我也可以找机会回家看看书陪陪老婆了，所以你一定要努力!
+- 对话/任务
+	韩当: 都说我如果吴国多几个你这样的猛将，那么我也可以找机会回家看看书陪陪老婆了，所以你一定要努力!
+- 传送
+	韩当: 官渡战场十分危险，你还是去多找几个朋友一起前去比较安全你确定现在就想进入官渡战场?
+	- 让我现在就去吧
+		if PlayerManager.player_item_inventory.get_quantity("地灵精魄") >= 3:
+			do PlayerManager.player_item_inventory.delete_item("地灵精魄", 3)
+			do LevelManager.load_new_map("白马", Vector2(346.6, 341.9))
+			=> END
+		else:
+			你缺少进入副本的地灵精魄，去本国书丞那里可以兑换。
+			=> END
+	- 让我再准备准备
+		=> END
+- 取消
+	=> END
+=> END

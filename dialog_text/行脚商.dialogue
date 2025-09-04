@@ -1,0 +1,34 @@
+~ start
+if LevelManager.current_load_map.map_name == "烟雨渡码头":
+	=> 鸟肉
+
+~ 鸟肉
+行脚商: 我就是个小商人，没背景没靠山，靠若不辞辛劳在魏、蜀、吴三国之间奔走挣点小钱。你有什么要跟我交易的呀？
+- 我要出售鸟肉
+	行脚商: 100个鸟肉能值个45000元，确定卖给我吗？
+	- 确定
+		if PlayerManager.player_item_inventory.get_quantity("鸟肉") >= 100:
+			do PlayerManager.player_item_inventory.delete_item("鸟肉", 100)
+			do PlayerManager.player.update_money(45000)
+			=> END
+		else:
+			=> 数量不足
+	- 我不想卖了
+		=> END
+- 我要出售翠鸟羽
+	行脚商: 100个翠鸟羽能值个120000元，确定卖给我吗？
+	- 确定
+		if PlayerManager.player_item_inventory.get_quantity("翠鸟羽") >= 100:
+			do PlayerManager.player_item_inventory.delete_item("翠鸟羽", 100)
+			do PlayerManager.player.update_money(120000)
+			=> END
+		else:
+			=> 数量不足
+	- 我不想卖了
+		=> END
+- 我就是来看看
+	=> END
+	
+~ 数量不足
+行脚商: 我走南闯北的，一眼就看出你数量不够了，等你收集足够的数量再来吧
+=> END

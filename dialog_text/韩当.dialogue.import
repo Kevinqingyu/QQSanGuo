@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cwek47km6qltb"
+path="res://.godot/imported/韩当.dialogue-24c273d286aa8c27292d59fc43eef28d.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/韩当.dialogue"
+dest_files=["res://.godot/imported/韩当.dialogue-24c273d286aa8c27292d59fc43eef28d.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

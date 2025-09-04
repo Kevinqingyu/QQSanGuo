@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cfwyu6ip2vcgf"
+path="res://.godot/imported/师缘隐士.dialogue-c08c73fb9472d2403c82786b59950b13.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/师缘隐士.dialogue"
+dest_files=["res://.godot/imported/师缘隐士.dialogue-c08c73fb9472d2403c82786b59950b13.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

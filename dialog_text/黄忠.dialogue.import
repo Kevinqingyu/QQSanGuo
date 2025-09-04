@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://doralb6oer0p1"
+path="res://.godot/imported/黄忠.dialogue-3c4145217567a467b2004d374c784a36.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/黄忠.dialogue"
+dest_files=["res://.godot/imported/黄忠.dialogue-3c4145217567a467b2004d374c784a36.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

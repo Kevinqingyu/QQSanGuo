@@ -1,0 +1,19 @@
+~ start
+刘备: 都说我耳朵大有福，其实我小时候调皮，读书不认真，在学堂老师拧，回家老爸拧，后来又结了个母夜叉，天天拧，久而久之耳朵就成这样了。
+- 对话/任务
+	刘备: 都说我耳朵大有福，其实我小时候调皮，读书不认真，在学堂老师拧，回家老爸拧，后来又结了个母夜叉，天天拧，久而久之耳朵就成这样了。
+- 传送
+	刘备: 黄巾前锋营十分危险，你还是去多找几个朋友一起前去比较安全你确定现在就想进入黄巾前锋营?
+	- 让我现在就去吧
+		if PlayerManager.player_item_inventory.get_quantity("地灵精魄") >= 1:
+			do PlayerManager.player_item_inventory.delete_item("地灵精魄")
+			do LevelManager.load_new_map("营寨前门", Vector2(4158.1, 1034))
+			=> END
+		else:
+			你缺少进入副本的地灵精魄，去本国书丞那里可以兑换。
+			=> END
+	- 让我再准备准备
+		=> END
+- 取消
+	=> END
+=> END

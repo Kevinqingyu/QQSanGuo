@@ -1,0 +1,39 @@
+~ start
+# 判断是否已经接受任务
+if QuestManager.current_has_quest("新兵试炼"):
+	# 判断任务进度
+	# 任务已接收，但未完成
+	if QuestManager.check_quest_state("新兵试炼") == 0:
+		=> on_progress
+	elif QuestManager.check_quest_state("新兵试炼") == 1:
+		=> has_progress
+	# 任务可提交
+	elif QuestManager.check_quest_state("新兵试炼") == 2:
+		=> can_report
+# 任务已完成
+else:
+	=> other_chat
+=> END
+
+~ other_chat
+廖化: 看样子你是新来的吧。不过，没有得到[color=#0eff00]诸葛亮[/color]军师的指引，我不能给你任务，军中规矩可严啦，虽然我看到帅哥美女就倍感亲切，但还是不敢违反军令，请你先回军师那领任务吧。军师就在左上方，一眼可见。
+=> END
+
+~ on_progress
+廖化: 据探子回报，营外有黄巾斥侯出没，你去探查一下，如果遇到那些黄巾斥侯，杀掉他们，得到1个他们携带的[color=#0eff00]黄巾腰牌[/color]，让他们见识见识你的厉害，我会在里面接应你的。
+do QuestManager.quest_update("新兵试炼", 1, "训练营廖化", {"type": "item", "items": {"黄巾腰牌": 1}})
+	- 我这就去
+=> END
+
+~ has_progress
+廖化: 速速完成任务，我好汇报丞相。
+=> END
+
+
+~ can_report
+廖化: 你能顺利得到腰牌，已经说明你有足够的勇气和智慧，相信你一定能在三国世界中闯出一番天地，本将会把你传入三国世界中，你愿意现在就进入三国世界中吗？
+do QuestManager.quest_update("新兵试炼", 3, "训练营廖化")
+	- 我愿意，快送我去吧
+	廖化: 对了，记住一会儿自然会有人接应你的，到了新地方，头上顶个感叹号的人就是接应你的人，记得要去和他交谈哦。
+do LevelManager.load_new_map("巴郡")
+=> END

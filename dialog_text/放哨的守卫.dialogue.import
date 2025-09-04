@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://o7g1kdv3sqp4"
+path="res://.godot/imported/放哨的守卫.dialogue-85e828466f27d909967994a4d150e9a0.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/放哨的守卫.dialogue"
+dest_files=["res://.godot/imported/放哨的守卫.dialogue-85e828466f27d909967994a4d150e9a0.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

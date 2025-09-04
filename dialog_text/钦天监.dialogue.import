@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dv3pjjym5nhs8"
+path="res://.godot/imported/钦天监.dialogue-34331a91fe5ff5cd71af923b782844ad.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/钦天监.dialogue"
+dest_files=["res://.godot/imported/钦天监.dialogue-34331a91fe5ff5cd71af923b782844ad.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://16t6f33ypwku"
+path="res://.godot/imported/宫廷传令官.dialogue-c772e56099e9b53d185a10a976022952.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/宫廷传令官.dialogue"
+dest_files=["res://.godot/imported/宫廷传令官.dialogue-c772e56099e9b53d185a10a976022952.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

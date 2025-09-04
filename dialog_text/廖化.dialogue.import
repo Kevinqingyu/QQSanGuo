@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://107anrnc0whd"
+path="res://.godot/imported/廖化.dialogue-df6201b9e19b19c74fe70563b24ae335.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/廖化.dialogue"
+dest_files=["res://.godot/imported/廖化.dialogue-df6201b9e19b19c74fe70563b24ae335.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

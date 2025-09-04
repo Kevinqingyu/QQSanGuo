@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://pdyh7cn6ow2v"
+path="res://.godot/imported/装备改造大师.dialogue-c03cf1b6113234dc76a72a1d4983460c.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/装备改造大师.dialogue"
+dest_files=["res://.godot/imported/装备改造大师.dialogue-c03cf1b6113234dc76a72a1d4983460c.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

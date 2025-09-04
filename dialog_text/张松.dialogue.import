@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://gbgrc1gl6h2r"
+path="res://.godot/imported/张松.dialogue-b7e2f310063b58e588a98176a77971f6.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/张松.dialogue"
+dest_files=["res://.godot/imported/张松.dialogue-b7e2f310063b58e588a98176a77971f6.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

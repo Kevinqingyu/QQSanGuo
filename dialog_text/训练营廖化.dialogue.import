@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://46jtj3r1qt50"
+path="res://.godot/imported/训练营廖化.dialogue-648a8481c8b3a9f2b460a24d9123e0cb.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/训练营廖化.dialogue"
+dest_files=["res://.godot/imported/训练营廖化.dialogue-648a8481c8b3a9f2b460a24d9123e0cb.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

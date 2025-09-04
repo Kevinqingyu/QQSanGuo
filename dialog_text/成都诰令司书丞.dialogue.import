@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cke188c5te0l1"
+path="res://.godot/imported/成都诰令司书丞.dialogue-1213539b1953a93ad8a1c2e9870f913d.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/成都诰令司书丞.dialogue"
+dest_files=["res://.godot/imported/成都诰令司书丞.dialogue-1213539b1953a93ad8a1c2e9870f913d.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

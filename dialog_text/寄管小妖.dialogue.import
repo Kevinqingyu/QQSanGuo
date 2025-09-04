@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dj26poit2o360"
+path="res://.godot/imported/寄管小妖.dialogue-40fe4cd2e97c5f412a742890335d8e18.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/寄管小妖.dialogue"
+dest_files=["res://.godot/imported/寄管小妖.dialogue-40fe4cd2e97c5f412a742890335d8e18.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

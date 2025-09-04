@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cl154elbmhlj2"
+path="res://.godot/imported/法正.dialogue-97c94aaddf71453b9603ca2490215fb0.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/法正.dialogue"
+dest_files=["res://.godot/imported/法正.dialogue-97c94aaddf71453b9603ca2490215fb0.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

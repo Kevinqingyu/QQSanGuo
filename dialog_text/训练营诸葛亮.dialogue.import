@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://tgax3yrvorcv"
+path="res://.godot/imported/训练营诸葛亮.dialogue-fefde2f800625bc29ce89919766c4129.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/训练营诸葛亮.dialogue"
+dest_files=["res://.godot/imported/训练营诸葛亮.dialogue-fefde2f800625bc29ce89919766c4129.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

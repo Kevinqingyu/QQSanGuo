@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bvd35h4hsvjdh"
+path="res://.godot/imported/行脚商.dialogue-ff30700c06290836237f5f57234b22b6.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/行脚商.dialogue"
+dest_files=["res://.godot/imported/行脚商.dialogue-ff30700c06290836237f5f57234b22b6.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

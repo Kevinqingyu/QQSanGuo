@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bktxkniojkn0g"
+path="res://.godot/imported/司马徽.dialogue-040622d339b98a63a46b57bdef9c7249.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/司马徽.dialogue"
+dest_files=["res://.godot/imported/司马徽.dialogue-040622d339b98a63a46b57bdef9c7249.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

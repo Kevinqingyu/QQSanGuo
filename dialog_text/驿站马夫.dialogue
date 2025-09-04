@@ -1,0 +1,21 @@
+~ start
+驿站马夫: 神仙?妖怪?想去哪里体验生活?我这里都提供服务哦。
+- 对话/任务
+	驿站马夫: 要想方便快速的在城市中自由来去，坐我们驿站的马车是最好的选择。
+- 旅行
+	do Hud.teleport.show_move_list_menu()
+	=> END
+- 定军山
+	驿站马夫: 你就是想前往定军山的生力军吧，那赶快准备准备，过去了可是会过上10分钟才能回来哦，你确定准备好要去了吗?
+	- 确定
+		if PlayerManager.player.player_energy >= 1000:
+			do PlayerManager.player.update_energy(-1000)
+			do LevelManager.load_new_map("定军山")
+			=> END
+		else:
+			驿站马夫: 你活力不够啊，再挂会机吧！
+			=> END
+	- 取消
+		=> END
+- 取消
+	=> END

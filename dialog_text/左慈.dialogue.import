@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cp1nb53g54p84"
+path="res://.godot/imported/左慈.dialogue-4e10c04c171bf0df7f5e6aa0a13fa81c.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/左慈.dialogue"
+dest_files=["res://.godot/imported/左慈.dialogue-4e10c04c171bf0df7f5e6aa0a13fa81c.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

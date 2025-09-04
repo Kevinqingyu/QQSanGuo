@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://40xbx2x3bod5"
+path="res://.godot/imported/县长.dialogue-7b22f48d3b9792e097533f4db0eb4727.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/县长.dialogue"
+dest_files=["res://.godot/imported/县长.dialogue-7b22f48d3b9792e097533f4db0eb4727.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

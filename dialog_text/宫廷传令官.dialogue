@@ -1,0 +1,17 @@
+~ start
+宫廷传令官: 奉国主命令，我在此招募贤才。
+- 灭鼠靖仓
+	宫廷传令官: 去往欢天喜地，需要一定的条件，你攒够钱了吗？（50000金钱，1000活力）
+	- 送我去吧
+		if PlayerManager.player.player_energy >= 1000 and PlayerManager.player.player_money >= 50000:
+			do PlayerManager.player.update_energy(-1000)
+			do PlayerManager.player.update_money(-50000)
+			do LevelManager.load_new_map("欢天喜地之处")
+			=> END
+		else:
+			宫廷传令官: 办事花钱，天经地义，再去筹措些许来。
+			=> END
+	- 暂时不去了
+		=> END
+- 取消
+	=> END

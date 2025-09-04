@@ -1,0 +1,57 @@
+~ start
+圣诞老人: 圣诞老公公精心准备的礼物，被怪物雪人看上了，他们企图抢走圣诞公公为我们准备的礼物！江湖豪杰们，还等什么，勇闯雪花漫天飞舞的“冰雪世界”，攻击可恶的“怪物雪人”、收集晶莹剔透的“雪之结晶”、 我们的礼物抢回来啊！
+- 前往圣诞雪景（10000金钱，200活力） 
+	- 送我去吧
+		if PlayerManager.player.player_energy >= 200 and PlayerManager.player.player_money >= 10000:
+			do PlayerManager.player.update_energy(-200)
+			do PlayerManager.player.update_money(-10000)
+			do LevelManager.load_new_map("圣诞雪景")
+			=> END
+		else:
+			圣诞老人: 你的材料不足。
+			=> END
+	- 暂时不去了
+		=> END
+- 兑换扫把
+	圣诞老人: 100个雪之结晶可以兑换一个武器炫装。
+	- 我要兑换
+		if PlayerManager.player.player_base_info["职业"] == "剑侍":
+			if !PlayerManager.player_cloth_inventory.cloth_inventory.has("3414"):
+				if PlayerManager.player_item_inventory.get_quantity("雪之结晶") >= 100:
+					do PlayerManager.player_item_inventory.delete_item("雪之结晶", 100)
+					do PlayerManager.player_cloth_inventory.add_item("3414")
+					=> END
+				else:
+					圣诞老人: 你的材料不足。
+					=> END
+			else:
+				圣诞老人: 你已经拥有这件炫装了。
+				=> END
+		elif PlayerManager.player.player_base_info["职业"] == "豪杰":
+			if !PlayerManager.player_cloth_inventory.cloth_inventory.has("3415"):
+				if PlayerManager.player_item_inventory.get_quantity("雪之结晶") >= 100:
+					do PlayerManager.player_item_inventory.delete_item("雪之结晶", 100)
+					do PlayerManager.player_cloth_inventory.add_item("3415")
+					=> END
+				else:
+					圣诞老人: 你的材料不足。
+					=> END
+			else:
+				圣诞老人: 你已经拥有这件炫装了。
+				=> END
+		elif PlayerManager.player.player_base_info["职业"] in ["阴阳士", "仙术士"]:
+			if !PlayerManager.player_cloth_inventory.cloth_inventory.has("3416"):
+				if PlayerManager.player_item_inventory.get_quantity("雪之结晶") >= 100:
+					do PlayerManager.player_item_inventory.delete_item("雪之结晶", 100)
+					do PlayerManager.player_cloth_inventory.add_item("3416")
+					=> END
+				else:
+					圣诞老人: 你的材料不足。
+					=> END
+			else:
+				圣诞老人: 你已经拥有这件炫装了。
+				=> END
+	- 暂时不用了
+		=> END
+- 取消
+	=> END

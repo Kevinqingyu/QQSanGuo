@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://doy06bba4y3of"
+path="res://.godot/imported/兑换天使.dialogue-99501e79c58ed95f42c26411a6f4f4ee.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/兑换天使.dialogue"
+dest_files=["res://.godot/imported/兑换天使.dialogue-99501e79c58ed95f42c26411a6f4f4ee.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

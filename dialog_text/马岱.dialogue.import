@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cro2ljldlf848"
+path="res://.godot/imported/马岱.dialogue-f900824fb970f8891634df02a9de4639.tres"
+
+[deps]
+
+source_file="res://dialog/dialog_text/马岱.dialogue"
+dest_files=["res://.godot/imported/马岱.dialogue-f900824fb970f8891634df02a9de4639.tres"]
+
+[params]
+
+dummy_value_ignore_me=0

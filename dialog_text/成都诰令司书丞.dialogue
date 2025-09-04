@@ -1,0 +1,56 @@
+~ start
+成都诰令司书丞: 你来找我有什么事?
+- 兑换地灵精魄
+	成都诰令司书丞: 500活力就可以换一个地灵精魄，你确定要兑换吗?
+	- 兑换1个地灵精魄
+		if PlayerManager.player.player_energy >= 500:
+			do PlayerManager.player.update_energy(-500)
+			do PlayerManager.player_item_inventory.add_item("地灵精魄")
+			=> END
+		else:
+			=> not_enought
+	- 兑换5个地灵精魄
+		if PlayerManager.player.player_energy >= 2500:
+			do PlayerManager.player.update_energy(-2500)
+			do PlayerManager.player_item_inventory.add_item("地灵精魄", 5)
+			=> END
+		else:
+			=> not_enought
+	- 兑换20个地灵精魄
+		if PlayerManager.player.player_energy >= 10000:
+			do PlayerManager.player.update_energy(-10000)
+			do PlayerManager.player_item_inventory.add_item("地灵精魄", 20)
+			=> END
+		else:
+			=> not_enought
+	- 取消
+		=> END
+- 皇宫遗物兑换声望
+	成都诰令司书丞: 一个皇宫遗物可以兑换10声望，你要兑换多少个？
+	- 兑换100个皇宫遗物
+		if PlayerManager.player_item_inventory.get_quantity("皇宫遗物") >= 100:
+			do PlayerManager.player_item_inventory.delete_item("皇宫遗物", 100)
+			set PlayerManager.player.player_reputation += 1000
+		else:
+			=> not_enought
+	- 兑换200个皇宫遗物
+		if PlayerManager.player_item_inventory.get_quantity("皇宫遗物") >= 200:
+			do PlayerManager.player_item_inventory.delete_item("皇宫遗物", 200)
+			set PlayerManager.player.player_reputation += 2000
+		else:
+			=> not_enought
+	- 兑换500个皇宫遗物
+		if PlayerManager.player_item_inventory.get_quantity("皇宫遗物") >= 500:
+			do PlayerManager.player_item_inventory.delete_item("皇宫遗物", 500)
+			set PlayerManager.player.player_reputation += 5000
+		else:
+			=> not_enought
+	- 取消
+		=> END
+- 取消
+	=> END
+=> END
+
+~ not_enought
+成都诰令司书丞: 你的材料不足，再去准备准备吧。
+=> END

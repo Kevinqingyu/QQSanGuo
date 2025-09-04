@@ -1,0 +1,31 @@
+~ start
+if QuestManager.finished_has_quest("熟悉村子"):
+	=> default
+elif QuestManager.current_has_quest("熟悉村子"):
+	if QuestManager.check_quest_state("熟悉村子") == 0:
+		=> on_progress熟悉村子
+	elif QuestManager.check_quest_state("熟悉村子") == 2:
+		=> can_report
+else:
+	=> accept
+	
+~ accept
+法正: 你初来乍到，本官也不知道你能力如何。正好这里有件小事要你帮手，请找到村中的[color=#0eff00]千货商[/color]，帮我预订几份药品吧。你可以多和他谈谈，要知道在乱世之中药品可是非常重要的物件。
+- 我这就去办
+	do QuestManager.quest_update("熟悉村子", 0, "千货商", {"type": "talk", "npcs": {"千货商": 1}})
+- 容我先熟悉下环境
+=> END
+
+~ on_progress熟悉村子
+法正: 快去问问千货商，顺便了解一些购买以及药品的常识
+=> END
+
+
+~ can_report
+法正: 哦？已经和千货商谈过了？很好，看来你办事效率不错。这是给你的跑腿费，以后村里有什么需要帮忙的尽管来找本官。
+do QuestManager.quest_update("熟悉村子", 3, "法正")
+=> END
+
+~ default
+法正: 前几天巴郡搞赛马周活动,周仓非要我买他的马,结果把积蓄全投进去了,结果临到比赛,他的马患了口蹄疫,不能上场,临时找了头母猪代替,弄得我现在吃饭都成问题。
+=> END

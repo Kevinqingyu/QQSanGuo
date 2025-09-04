@@ -1,0 +1,4 @@
+~ start
+飞毛腿: 本人号称飞毛腿，云游至此，自然会给有缘人一些好处，来传授你个快跑秘诀，好好享受这飞奔的快感吧！
+do BuffManager.feimaotui_buff()
+=> END

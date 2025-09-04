@@ -1,0 +1,16 @@
+~ start
+县长: B站：我说我当不了县长啊\
+仅供学习研究，请支持正版。
+- 保存游戏
+	do SaveManager.save_game()
+	县长: 保存成功，再战三国!
+	=> END
+- 县长的祝福
+	do BuffManager.xianzhang_buff()
+	县长: 跑起来！
+	=> END
+- 领取时长奖励
+	县长: [wave]没做呢!没做呢!没做呢![/wave]
+	=> END
+- 退出
+=> END
